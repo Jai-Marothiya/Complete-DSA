@@ -1,0 +1,15 @@
+/**** 4 Jan 2023 *****/
+Lec-4 -> Bitwise Operators
+Lec-6 -> Decimal to binary conversion
+Lec-6-1 -> Negative Decimal to binary conversion
+Lec-6-2 -> Binary to Decimal conversion
+
+/**** 5 Jan 2023 *****/
+Lec-12 -> Normal and Recursive form of Binary Search
+Lec-13 -> Find the index of first and last occurence of key in your given sorted array, if not found return -1,-1.
+Lec-13-1 ->  Find index of largest element in given mounted array(i.e. first increasing then decreasing), array.length()>=3.
+Lec-14 ->  Find index of pivot element in given sorted rotated array, Eg. arr = [7,8,9,10,2,3,5]. So here pivot element is 2 and its index is 4.
+Lec-14-1 -> Search given element in given sorted rotated array, Eg. arr = [7,8,9,10,2,3,5].
+Lec-14-2 -> // Find square root of number with O(log(n)) time complexity
+
+/**** 6 Jan 2023 *****/
