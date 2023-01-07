@@ -1,4 +1,4 @@
-// Find square root of number only interger part with O(log(n)) time complexity
+// Find square root of number with O(log(n)) time complexity
 #include <bits/stdc++.h>
 using namespace std;
 
