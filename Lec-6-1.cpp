@@ -1,37 +1,66 @@
+// Negative integer to Binary
+// approach
+// 1st find binary number of given number (asume number is positive)
+// 2nd find 1's complement of binary number
+// 3dr find 2's complement of binary number
 #include <iostream>
 #include <math.h>
 
 using namespace std;
 
-void print_binary(int num)
+void print_binary(int n)
 {
-    // `result` stores the binary notation of `num` in decimal format
-    int result = 0;
+    int bi_num[32] = {0};
 
-    // It ignores leading zeros and leading ones
-    int place_value = 1;
-    while (!(num == 0 | num == -1))
+    for (int i = 31; i >= 0 && n > 0; --i)
     {
-        // Extracting the rightmost bit from `num`
-        int bit = num & 1;
-
-        // appending `bit` to `result`
-        result += bit * place_value;
-
-        // Shifting `num` to the right
-        // so that second bit (from right) now become the rightmost bit
-        num = num >> 1;
-        place_value *= 10;
+        if (n % 2)
+        {
+            bi_num[i] = 1;
+        }
+        n /= 2;
     }
 
-    cout << result << endl;
+    // now find 1's complement
+    for (int i = 0; i < 32; i++)
+    {
+        if (bi_num[i] == 0)
+        {
+            bi_num[i] = 1;
+        }
+        else
+        {
+            bi_num[i] = 0;
+        }
+    }
+
+    // now find 2's complement
+    for (int i = 31; i >= 0; i--)
+    {
+        if (bi_num[i] == 1)
+        {
+            bi_num[i] = 0;
+        }
+        else
+        {
+            bi_num[i] = 1;
+            break;
+        }
+    }
+    // now print binary form of given negative number
+    cout << "It's binary form is : ";
+    for (int i = 0; i < 32; i++)
+    {
+        cout << bi_num[i];
+    }
+    cout << endl;
 }
 
 int main()
 {
-    int number = -6;
-    int neg_number = ~number + 1; // Took 2's compliment of number
+    int n;
+    cout << "Enter a negative number : ";
+    cin >> n;
 
-    print_binary(number);
-    print_binary(neg_number);
+    print_binary(-n);
 }

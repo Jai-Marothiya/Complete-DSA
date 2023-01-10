@@ -1,4 +1,4 @@
-// STl container : Queue. follow FIFO mechanism (i.e. first in first out)
+// STL container : Queue. follow FIFO mechanism (i.e. first in first out)
 #include <iostream>
 #include <queue>
 

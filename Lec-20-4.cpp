@@ -1,4 +1,4 @@
-// STl container : Stack. follow LIFO mechanism (i.e. last in first out)
+// STL container : Stack. follow LIFO mechanism (i.e. last in first out)
 #include <iostream>
 #include <stack>
 

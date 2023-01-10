@@ -18,7 +18,7 @@ void BubbleSort(vector<int> &arr)
 
     for (int i = 0; i < n - 1; i++)
     {
-        bool swapped = false;
+        bool swapped = false; // If no swapping done in particular round it means array become sorted, no need to worjk more just break the loop;
         for (int j = 0; j < n - i - 1; j++)
         {
             if (arr[j] > arr[j + 1])

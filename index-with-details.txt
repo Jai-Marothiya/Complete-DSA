@@ -6,10 +6,28 @@ Lec-6-2 -> Binary to Decimal conversion
 
 /**** 5 Jan 2023 *****/
 Lec-12 -> Normal and Recursive form of Binary Search
-Lec-13 -> Find the index of first and last occurence of key in your given sorted array, if not found return -1,-1.
-Lec-13-1 ->  Find index of largest element in given mounted array(i.e. first increasing then decreasing), array.length()>=3.
-Lec-14 ->  Find index of pivot element in given sorted rotated array, Eg. arr = [7,8,9,10,2,3,5]. So here pivot element is 2 and its index is 4.
+Lec-13 -> Find the index of the first and last occurrence of a key in your given sorted array, if not found return -1,-1.
+Lec-13-1 ->  Find the index of the largest element in the given mounted array(i.e. first increasing then decreasing), array.length()>=3.
+Lec-14 ->  Find the index of the pivot element in a given sorted rotated array, Eg. arr = [7,8,9,10,2,3,5]. So here pivot element is 2 and its index is 4.
 Lec-14-1 -> Search given element in given sorted rotated array, Eg. arr = [7,8,9,10,2,3,5].
 Lec-14-2 -> // Find square root of number with O(log(n)) time complexity
 
 /**** 6 Jan 2023 *****/
+Lec-15 -> Book Allocation Problem(Binary search)
+
+/**** 7 Jan 2023 *****/
+Lec-15-1 ->Painters allocation(Binary search)
+Lec-15-2->Aggressive cows(Binary search)
+
+/**** 8 Jan 2023 *****/
+Lec-17 -> Bubble sort wih Optimisation.
+Lec-20 -> Normal array Vs STL array
+Lec-20-1 -> STL Vector
+Lec-20-2 -> STL Container: Deque or doubly ended queue.
+Lec-20-3 -> STL Container: List, random excess not available;
+Lec-20-4 -> STL container: Stack. follow LIFO mechanism 
+Lec-20-5 -> STL container: Queue. follow FIFO mechanism 
+Lec-20-6 -> STL container: priority_queue.
+Lec-20-7 -> STL container: Set.
+Lec-20-8 -> STL container: Map.
+Lec-20-9 -> STL Algorithms.

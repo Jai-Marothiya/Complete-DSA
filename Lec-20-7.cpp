@@ -1,4 +1,4 @@
-// STl container : Set.
+// STL container : Set.
 // Features : 1. store unique elements, 2. We cannot modify elements (only add or delete elements), 3. Sorted order
 #include <iostream>
 #include <set>
