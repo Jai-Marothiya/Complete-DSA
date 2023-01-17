@@ -31,3 +31,21 @@ Lec-20-6 -> STL container: priority_queue.
 Lec-20-7 -> STL container: Set.
 Lec-20-8 -> STL container: Map.
 Lec-20-9 -> STL Algorithms.
+
+/**** 12 Jan 2023 *****/
+Lec-24 -> Sieve of Eratosthenes 
+
+/**** 13 Jan 2023 *****/
+Lec-24-1 -> Print all primes smaller than n using segmented sieve 
+Lec-24-2  -> Find GCD/HCF of two number. Concept gcd(a,b)=gcd(a%b,b) such that a>b
+
+/**** 14 Jan 2023 *****/
+Lec-26 -> Play with pointers in interger and char array
+Lec-26-1 -> Play with pointers in Functions
+
+/**** 14 Jan 2023 *****/
+Lec-28 -> Concept ref variable
+Lec-28-1 -> Allocate memory to array dynamically
+Lec-29 -> Create a 2-d array dynamically. Input/output of dynamic array. Releasing memory from heap
+Lec-29-1 -> Home work: Create a Jaggered Array dynamically
+Lec-30 -> Macros : A piece of code in a program that is replaced by value of macro.
