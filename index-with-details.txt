@@ -36,16 +36,33 @@ Lec-20-9 -> STL Algorithms.
 Lec-24 -> Sieve of Eratosthenes 
 
 /**** 13 Jan 2023 *****/
-Lec-24-1 -> Print all primes smaller than n using segmented sieve 
-Lec-24-2  -> Find GCD/HCF of two number. Concept gcd(a,b)=gcd(a%b,b) such that a>b
+Lec-24-1 -> Print all primes smaller than n using a segmented sieve 
+Lec-24-2  -> Find the GCD/HCF of two numbers. Concept gcd(a,b)=gcd(a%b,b) such that a>b
 
 /**** 14 Jan 2023 *****/
-Lec-26 -> Play with pointers in interger and char array
+Lec-26 -> Play with pointers in integer and char array
 Lec-26-1 -> Play with pointers in Functions
 
-/**** 14 Jan 2023 *****/
+/**** 15 Jan 2023 *****/
 Lec-28 -> Concept ref variable
 Lec-28-1 -> Allocate memory to array dynamically
-Lec-29 -> Create a 2-d array dynamically. Input/output of dynamic array. Releasing memory from heap
-Lec-29-1 -> Home work: Create a Jaggered Array dynamically
-Lec-30 -> Macros : A piece of code in a program that is replaced by value of macro.
+Lec-29 -> Create a 2-d array dynamically. Input/output of the dynamic array. Releasing memory from the heap
+Lec-29-1 -> Homework: Create a Jaggered Array dynamically
+Lec-30 -> Macros: A piece of code in a program that is replaced by the value of the macro.
+
+/**** 17 Jan 2023 *****/
+Lec-32 -> Recursion questions: Count Ways To Reach The N-th Stairs if you either take 1 or 2 steps at a time.
+
+/**** 18 Jan 2023 *****/
+Lec-32-1 -> Recursion problem: Print given number as like Eg. n=412 print: Four One Two
+Lec-33 -> Check whether an array is "sorted or not" using recursion
+Lec-33-1 -> Code linear search using recursion
+Lec-33-2 -> Code Binary search using recursion
+Lec-34-> Reverse String using recursion
+Lec-34-1 -> Check Palindrome String using recursion
+Lec-34-2-> Find a^b using recursion
+Lec-34-3 -> Sort array with recursive Bubble Sort
+Lec-35 -> Merge Sort using recursion
+Lec-35-1 -> Find the inversion count of a[].
+Lec-36 -> Quick sort using recursion
+

@@ -1,4 +1,4 @@
-// C++ program to print all primes smaller than
+// C++ program to print all primes smaller than n
 // n using segmented sieve
 // Why use segmented seive : Because if we check this for very large number then if will exceed limit so we break our test zone in segment then check
 #include <bits/stdc++.h>
