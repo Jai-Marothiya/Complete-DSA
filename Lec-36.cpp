@@ -1,4 +1,4 @@
-// Quick sort
+// Quick sort using recursion
 #include <bits/stdc++.h>
 using namespace std;
 
