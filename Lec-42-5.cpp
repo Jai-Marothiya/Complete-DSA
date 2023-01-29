@@ -1,4 +1,5 @@
 // OOPs concept in C++
+// Part-6 - static keyword
 #include <bits/stdc++.h>
 using namespace std;
 

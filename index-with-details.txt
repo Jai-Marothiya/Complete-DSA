@@ -66,3 +66,34 @@ Lec-35 -> Merge Sort using recursion
 Lec-35-1 -> Find the inversion count of a[].
 Lec-36 -> Quick sort using recursion
 
+/**** 18 Jan 2023 *****/
+Lec-37 -> Find the power set of the given array
+Lec-37-1 -> Find all the subsequences of a string
+Lec-37-2 -> Find the power set of a given array using the bits approach
+Lec-38 -> Given a string containing digits from 2-9 inclusive. Mobile key problem.
+Lec-39 -> Given array nums of distinct integers, return all the possible permutations
+
+/**** 22 Jan 2023 *****/
+Lec - 40 -> Rate in maze problem
+Lec-42 -> OOPs concept in C++ : Part-1 - getter setter
+Lec-42-1 -> OOPs concept in C++ : Part-2 - dynamic memory allocation of object
+Lec-42-2 -> OOPs concept in C++ : Part-3- constructor
+
+/**** 23 Jan 2023 *****/
+Lec-42-3 -> OOPs concept in C++ : Part-4 - Shallow and Deep copy
+Lec-42-4 -> OOPs concept in C++ : Part-5 - destructor
+Lec-42-5 -> OOPs concept in C++ : Part-6 - static keyword
+
+/**** 25 Jan 2023 *****/
+Lec-43 -> 4 - Pillars of OOPs: 1. Encapsulation
+Lec-43-1 -> 4 - Pillars of OOPs: 2. Inheritance 
+Lec-43-2 -> 4 - Pillars of OOPs: Single-Level Inheritance
+Lec-43-3 -> 4 - Pillars of OOPs: Multi-level Inheritance 
+Lec-43-4 -> 4 - Pillars of OOPs: Multiple Inheritance
+Lec-43-5 -> 4 - Pillars of OOPs: Hierarchical Inheritance
+Lec-43-6 -> 4 - Pillars of OOPs: Inheritance Ambiguity
+Lec-43-7 -> 4 - Pillars of OOPs: (i) Function overloading, (ii) Method overriding
+Lec-54 -> Stack data-structure : LIFO
+
+
+

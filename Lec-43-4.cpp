@@ -1,4 +1,4 @@
-// Multiple Inheritance : The multi-level inheritance includes the involvement of at least two or more than two classes.
+// Multiple Inheritance : It is an inheritance where a class can inherit from more than one classes.
 #include <iostream>
 using namespace std;
 

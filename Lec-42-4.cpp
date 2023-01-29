@@ -1,4 +1,5 @@
 // OOPs concept in C++
+// Part-5 - destructor
 #include <bits/stdc++.h>
 using namespace std;
 
