@@ -93,7 +93,7 @@ Lec-43-4 -> 4 - Pillars of OOPs: Multiple Inheritance
 Lec-43-5 -> 4 - Pillars of OOPs: Hierarchical Inheritance
 Lec-43-6 -> 4 - Pillars of OOPs: Inheritance Ambiguity
 Lec-43-7 -> 4 - Pillars of OOPs: (i) Function overloading, (ii) Method overriding
-Lec-54 -> Stack data-structure : LIFO
+Lec-54 -> Stack data structure: LIFO
 
 
 
