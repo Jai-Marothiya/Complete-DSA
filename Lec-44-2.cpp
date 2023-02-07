@@ -45,7 +45,7 @@ void insertNode(Node *&tail, int element, int d)
 
         Node *curr = tail;
 
-        while (curr->data != element)
+        while (curr->data != element && curr != NULL)
         {
             curr = curr->next;
         }
@@ -109,7 +109,7 @@ void deleteNode(Node *&tail, int value)
             tail = NULL;
         }
 
-        //>=2 Node linked list
+        // >=2 Node linked list
         else if (tail == curr)
         {
             tail = prev;
