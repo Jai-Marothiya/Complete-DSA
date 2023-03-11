@@ -56,7 +56,7 @@ void levelOrderTraversal(node *root)
             cout << endl;
             if (!q.empty())
             {
-                // queue still has some child ndoes
+                // queue still has some child nodes
                 q.push(NULL);
             }
         }
