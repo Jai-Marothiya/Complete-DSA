@@ -1,16 +1,16 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-class Node
+class tNode
 {
 
 public:
     // Propetires
     int data;
-    Node *next;
+    tNode *next;
 
     // Constructor
-    Node(int data)
+    tNode(int data)
     {
         this->data = data;
         this->next = NULL;
@@ -18,24 +18,24 @@ public:
 };
 
 // Methoods
-void insertAtHead(Node *&head, int data)
+void insertAtHead(tNode *&head, int data)
 {
-    Node *temp = new Node(data);
+    tNode *temp = new tNode(data);
     temp->next = head;
     head = temp;
 }
 
-void insertAtTail(Node *&tail, int data)
+void insertAtTail(tNode *&tail, int data)
 {
-    Node *temp = new Node(data);
+    tNode *temp = new tNode(data);
     tail->next = temp;
     tail = temp;
 }
 
-void insertAtPosition(Node *&head, Node *&tail, int p, int data)
+void insertAtPosition(tNode *&head, tNode *&tail, int p, int data)
 {
-    Node *temp = head;
-    Node *temp1 = new Node(data);
+    tNode *temp = head;
+    tNode *temp1 = new tNode(data);
     if (p == 1)
     {
         insertAtHead(head, data);
@@ -59,10 +59,10 @@ void insertAtPosition(Node *&head, Node *&tail, int p, int data)
     temp->next = temp1;
 }
 
-void deleteNode(Node *&head, Node *&tail, int pos)
+void deleteNode(tNode *&head, tNode *&tail, int pos)
 {
-    Node *temp = head;
-    Node *dele = head;
+    tNode *temp = head;
+    tNode *dele = head;
     int cnt = 1;
 
     if (pos == 1)
@@ -90,9 +90,9 @@ void deleteNode(Node *&head, Node *&tail, int pos)
     delete (dele);
 }
 
-void print(Node *&head)
+void print(tNode *&head)
 {
-    Node *temp = head;
+    tNode *temp = head;
 
     while (temp != NULL)
     {
@@ -104,9 +104,9 @@ void print(Node *&head)
 
 int main()
 {
-    Node *node1 = new Node(10);
-    Node *head = node1;
-    Node *tail = node1;
+    tNode *node1 = new tNode(10);
+    tNode *head = node1;
+    tNode *tail = node1;
 
     insertAtHead(head, 12);
     insertAtTail(tail, 9);

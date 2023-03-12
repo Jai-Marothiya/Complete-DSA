@@ -95,5 +95,15 @@ Lec-43-6 -> 4 - Pillars of OOPs: Inheritance Ambiguity
 Lec-43-7 -> 4 - Pillars of OOPs: (i) Function overloading, (ii) Method overriding
 Lec-54 -> Stack data structure: LIFO
 
+/**** 1 Feb 2023 *****/
+Lec-60 -> Introduction of Queue and Deque ;
 
+/**** 2 March 2023 *****/
+Lec-62 -> Binary tree: Complete introduction and basic traversals
+
+/**** 5 March 2023 *****/
+Lec-64 -> Binary Tree: Function to store the zig-zag order traversal of a tree in a list.
+
+/**** 12 March 2023 *****/
+Lec-68 -> Binary Tree: Morris Traversal(T.C. = O(N)  & S.C. = O(1))
 

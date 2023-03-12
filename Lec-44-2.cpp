@@ -3,20 +3,20 @@
 #include <map>
 using namespace std;
 
-class Node
+class tNode
 {
 public:
     int data;
-    Node *next;
+    tNode *next;
 
     // constrcutor
-    Node(int d)
+    tNode(int d)
     {
         this->data = d;
         this->next = NULL;
     }
 
-    ~Node()
+    ~tNode()
     {
         int value = this->data;
         if (this->next != NULL)
@@ -28,13 +28,13 @@ public:
     }
 };
 
-void insertNode(Node *&tail, int element, int d)
+void insertNode(tNode *&tail, int element, int d)
 {
 
     // empty list
     if (tail == NULL)
     {
-        Node *newNode = new Node(d);
+        tNode *newNode = new tNode(d);
         tail = newNode;
         newNode->next = newNode;
     }
@@ -43,7 +43,7 @@ void insertNode(Node *&tail, int element, int d)
         // non-empty list
         // assuming that the element is present in the list
 
-        Node *curr = tail;
+        tNode *curr = tail;
 
         while (curr->data != element && curr != NULL)
         {
@@ -51,16 +51,16 @@ void insertNode(Node *&tail, int element, int d)
         }
 
         // element found -> curr is representing element wala node
-        Node *temp = new Node(d);
+        tNode *temp = new tNode(d);
         temp->next = curr->next;
         curr->next = temp;
     }
 }
 
-void print(Node *tail)
+void print(tNode *tail)
 {
 
-    Node *temp = tail;
+    tNode *temp = tail;
 
     // empty list
     if (tail == NULL)
@@ -78,7 +78,7 @@ void print(Node *tail)
     cout << endl;
 }
 
-void deleteNode(Node *&tail, int value)
+void deleteNode(tNode *&tail, int value)
 {
 
     // empty list
@@ -92,8 +92,8 @@ void deleteNode(Node *&tail, int value)
         // non-empty
 
         // assuming that "value" is present in the Linked List
-        Node *prev = tail;
-        Node *curr = prev->next;
+        tNode *prev = tail;
+        tNode *curr = prev->next;
 
         while (curr->data != value)
         {
@@ -120,7 +120,7 @@ void deleteNode(Node *&tail, int value)
     }
 }
 
-bool isCircularList(Node *head)
+bool isCircularList(tNode *head)
 {
     // empty list
     if (head == NULL)
@@ -128,7 +128,7 @@ bool isCircularList(Node *head)
         return true;
     }
 
-    Node *temp = head->next;
+    tNode *temp = head->next;
     while (temp != NULL && temp != head)
     {
         temp = temp->next;
@@ -142,15 +142,15 @@ bool isCircularList(Node *head)
     return false;
 }
 
-bool detectLoop(Node *head)
+bool detectLoop(tNode *head)
 {
 
     if (head == NULL)
         return false;
 
-    map<Node *, bool> visited;
+    map<tNode *, bool> visited;
 
-    Node *temp = head;
+    tNode *temp = head;
 
     while (temp != NULL)
     {
@@ -170,7 +170,7 @@ bool detectLoop(Node *head)
 int main()
 {
 
-    Node *tail = NULL;
+    tNode *tail = NULL;
 
     // insertNode(tail, 5, 3);
     // print(tail);

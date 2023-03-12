@@ -3,17 +3,17 @@ using namespace std;
 #define MAX_HEIGHT 100000
 
 // Tree Node
-struct Node
+struct tNode
 {
     int data;
-    Node *left;
-    Node *right;
+    tNode *left;
+    tNode *right;
 };
 
 // Utility function to create a new Tree Node
-Node *newNode(int val)
+tNode *newNode(int val)
 {
-    Node *temp = new Node;
+    tNode *temp = new tNode;
     temp->data = val;
     temp->left = NULL;
     temp->right = NULL;
@@ -22,7 +22,7 @@ Node *newNode(int val)
 }
 
 // Function to Build Tree
-Node *buildTree(string str)
+tNode *buildTree(string str)
 {
     // Corner Case
     if (str.length() == 0 || str[0] == 'N')
@@ -37,10 +37,10 @@ Node *buildTree(string str)
         ip.push_back(str);
 
     // Create the root of the tree
-    Node *root = newNode(stoi(ip[0]));
+    tNode *root = newNode(stoi(ip[0]));
 
     // Push the root to the queue
-    queue<Node *> queue;
+    queue<tNode *> queue;
     queue.push(root);
 
     // Starting from the second element
@@ -49,7 +49,7 @@ Node *buildTree(string str)
     {
 
         // Get and remove the front of the queue
-        Node *currNode = queue.front();
+        tNode *currNode = queue.front();
         queue.pop();
 
         // Get the current node's value from the string
@@ -106,13 +106,13 @@ class Solution
 {
 public:
     // Function to store the zig zag order traversal of tree in a list.
-    vector<int> zigZagTraversal(Node *root)
+    vector<int> zigZagTraversal(tNode *root)
     {
         vector<int> result;
         if (root == NULL)
             return result;
 
-        queue<Node *> q;
+        queue<tNode *> q;
         q.push(root);
 
         bool leftToRight = true;
@@ -127,7 +127,7 @@ public:
             for (int i = 0; i < size; i++)
             {
 
-                Node *frontNode = q.front();
+                tNode *frontNode = q.front();
                 q.pop();
 
                 // normal insert or reverse insert
@@ -161,13 +161,13 @@ int main()
 {
 
     int t;
-    scanf("%d ", &t);
+    cin >> t;
     while (t--)
     {
         string s, ch;
         getline(cin, s);
 
-        Node *root = buildTree(s);
+        tNode *root = buildTree(s);
 
         vector<int> ans;
         Solution ob;
