@@ -97,6 +97,37 @@ public:
     {
         return searchUtil(root, word);
     }
+
+    void removeUtil(TrieNode *root, string word)
+    {
+        // Base case
+        if (word.length() == 0)
+        {
+            root->isTerminal = false;
+            return;
+        }
+
+        int index = word[0] - 'A';
+        TrieNode *child;
+        if (root->children[index] != NULL)
+        {
+            child = root->children[index];
+        }
+        else
+        {
+            // absent
+            cout << "Element Not Found";
+            return;
+        }
+
+        // Recursion
+        removeUtil(child, word.substr(1));
+    }
+
+    void remove(string s)
+    {
+        removeUtil(root, s);
+    }
 };
 
 int main()
@@ -107,9 +138,11 @@ int main()
     t->insertWord("JAI");
     t->insertWord("WIND");
     t->insertWord("INDIA");
-    t->insertWord("INDIGO");
-    cout << "Is INDIA present or not: " << t->searchWord("INDIA") << endl;
-    cout << "Is IND present or not: " << t->searchWord("IND") << endl;
+    t->insertWord("IN");
+    cout << "Is INDIA present or not: " << (t->searchWord("INDIA") ? "Yes" : "NO") << endl;
+    cout << "Is JAI present or not Before removal: " << (t->searchWord("JAI") ? "Yes" : "NO") << endl;
+    t->remove("JAI");
+    cout << "Is JAI present or not After removal: " << (t->searchWord("JAI") ? "Yes" : "NO") << endl;
 
     return 0;
 }
