@@ -1,7 +1,7 @@
 // 4 - Pillars of OOPs
 // 2. Inheritance = passing properties of one class(parent/super class) to other(child/sub-class class),
 // Advantage -> 1.) if common properties required for multiple class then write in one class and pass in all, so reduce code. 2.) if we want we can make class "Read only".
-// Private DM of super class never be inherited
+// Private DM(Data Members) of super class never be inherited
 
 #include <iostream>
 using namespace std;

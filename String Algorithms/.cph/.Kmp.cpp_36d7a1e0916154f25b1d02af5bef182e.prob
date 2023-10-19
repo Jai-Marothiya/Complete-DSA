@@ -1,0 +1,1 @@
+{"name":"Local: Kmp","url":"e:\\Complete-DSA\\String Algorithms\\Kmp.cpp","tests":[{"id":1693331504591,"input":"CodeNCode is an Coding platform\nCod","output":"0\n5\n16"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\Complete-DSA\\String Algorithms\\Kmp.cpp","group":"local","local":true}
